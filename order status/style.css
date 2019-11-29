@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.main-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.maps{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.status{
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 192.5px);
+    width: 385px;
+    /* height: 217px; */
+
+    background: rgba(255, 255, 255, 0.87);
+    backdrop-filter: blur(4px);
+    border-radius: 7px;
+}
+.info{
+    padding: 16px 20px 10px 20px;
+    display: flex;
+}
+.info-car{
+    display: flex;
+
+}
+.car-img{
+    width: 101px;
+    height: 74px;
+}
+.car-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.car-text{
+    padding-left:11px ;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.car-number{
+    font-size: 16px;
+    color: #000;
+}
+.info-driver{
+    margin-left: auto;
+    width: 74px;
+    height: 74px;
+}
+.info-driver img{
+    width: 100%;
+    height: 100%;
+    border-radius: 37px;
+}
+.stop-btn{
+    width: 201.1px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+.stop-btn button{
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    background:rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 7px 18px 6px 21px;
+}
+.stop-btn button span{
+    padding-left: 5px;
+}
+
+.text-info{
+    font-family: 'Roboto',sans-serif;
+    padding: 0px 20px 10px 21px;
+}
+.text-info-prise{
+    display: flex;
+    padding-bottom: 6px;
+}
+.prise-text{
+    font-size: 16px;
+    line-height: 24px;
+}
+.prise-type{
+    margin-left: auto;
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+}
+.prise-type img{
+    width: 16px;
+    height: 16px;
+}
+.car-status{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.car-rides{
+    display: flex;
+    
+}
+.car-rides-info{
+    margin-left:auto;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: rgba(0, 0, 0, 0.6);
+}

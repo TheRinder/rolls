@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"> 
+    <title>start page</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="content">
+            <div class="menu">
+                <button onclick="test_button('hamburger')">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="../img/logotype.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75240.72970081591!2d27.540088541642756!3d53.89136535529023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1574144662081!5m2!1sru!2sby"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="container-button">
+            <div class="button-block">
+                <div class="button position">
+                    <button onclick="test_button('one')">
+                        <img src="../img/pngkey.png" alt="">
+                    </button>
+                    <div class="lable">
+                        Прокат
+                    </div>
+                </div>
+                <div class="button position-mid">
+                    <button onclick="test_button('two')">
+                        <img src="../img/clipart1204653.png" alt="">
+                    </button>
+                    <div class="lable">
+                        Аренда <span><br> (с водителем)</span>
+                            
+                    </div>
+                </div>
+                <div class="button position">
+                    <button onclick="test_button('three')">
+                        <img src="../img/taxi.png" alt="">
+                    </button>
+                    <div class="lable">
+                        Такси
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function test_button(str) {
+            console.log(str)
+        }
+    </script>
+</body>
+
+</html>

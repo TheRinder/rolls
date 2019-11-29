@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <title>Menu</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="menu-full">
+            <div class="back">
+                <button onclick="">
+                    <img src="../img/arrow.png" alt="">
+                </button>
+            </div>
+            <div class="menu-header">
+                <div class="menu-header-logo">
+                    <img src="../img/logotype_low.png" alt="">
+                </div>
+                <div class="menu-header-text">
+                    <p>Заказ такси</p>
+                </div>
+            </div>
+            <div class="menu-body">
+                <div class="menu-button">
+                    <div class="menu-type-of-order">
+                        <input class="menu-radio" type="radio" name="type-of-order" id="type-of-order1">
+                        <label class="menu-radio-lable" for="type-of-order1">
+                            <!-- <img src="../img/taxi.png" alt=""> -->
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25.87 4.89125C25.545 3.9325 24.635 3.25 23.5625 3.25H19.5V0H9.75V3.25H5.6875C4.615 3.25 3.72125 3.9325 3.38 4.89125L0 14.625V27.625C0 28.5187 0.73125 29.25 1.625 29.25H3.25C4.14375 29.25 4.875 28.5187 4.875 27.625V26H24.375V27.625C24.375 28.5187 25.1063 29.25 26 29.25H27.625C28.5187 29.25 29.25 28.5187 29.25 27.625V14.625L25.87 4.89125ZM5.6875 21.125C4.33875 21.125 3.25 20.0362 3.25 18.6875C3.25 17.3388 4.33875 16.25 5.6875 16.25C7.03625 16.25 8.125 17.3388 8.125 18.6875C8.125 20.0362 7.03625 21.125 5.6875 21.125ZM23.5625 21.125C22.2138 21.125 21.125 20.0362 21.125 18.6875C21.125 17.3388 22.2138 16.25 23.5625 16.25C24.9112 16.25 26 17.3388 26 18.6875C26 20.0362 24.9112 21.125 23.5625 21.125ZM3.25 13L5.6875 5.6875H23.5625L26 13H3.25Z"
+                                    fill="black" fill-opacity="0.87" />
+                            </svg>
+                            <p>Такси</p>
+                        </label>
+                    </div>
+                    <div class="menu-type-of-order">
+                        <input class="menu-radio" type="radio" name="type-of-order" id="type-of-order2">
+                        <label class="menu-radio-lable" for="type-of-order2">
+                            <!-- <img src="../img/clipart1204653.png" alt=""> -->
+                            <svg width="41" height="25" viewBox="0 0 43 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.79995 29H3.59996C3.15814 29 2.79997 28.4686 2.79997 28.2658L2.79997 12.8481C2.79997 12.8481 2.62089 12.481 2.39997 12.481C2.17906 12.481 1.99998 12.8481 1.99998 12.8481V18.7215C1.99998 19.0421 1.87942 19.2634 1.59998 19.4557C1.22508 19.7137 0.774895 19.7137 0.399996 19.4557C0.120563 19.2634 0 19.0421 0 18.7215V9.17722C0 8.16353 0.895421 7.34177 1.99998 7.34177H3.99996L5.59994 11.3797H6.39993L7.99991 7.34177H10.3999C11.4001 7.34177 11.9999 8.62637 11.9999 9.5443V18.7215C11.9999 19.127 12.019 19.3275 11.5999 19.4557C11.3035 19.5464 10.6711 19.5979 10.3999 19.4557C10.0966 19.2967 9.99989 19.0421 9.99989 18.7215V13.2152C9.99989 13.2152 9.8208 12.8481 9.59989 12.8481C9.37898 12.8481 9.1999 13.2152 9.1999 13.2152L9.1999 28.2658C9.1999 28.6713 8.84173 29 8.39991 29H7.19992C6.78077 28.8718 6.39993 28.6713 6.39993 28.2658V20.1899C6.39993 20.1899 6.34922 19.4557 5.99993 19.4557C5.65064 19.4557 5.59994 20.1899 5.59994 20.1899V28.2658C5.59994 28.6713 5.24177 29 4.79995 29Z"
+                                    fill="black" fill-opacity="0.87" />
+                                <path
+                                    d="M9.1999 3.67089C9.1999 5.29279 8.7999 7.34177 5.59994 6.97468C3.89881 6.77954 2.79996 4.40506 3.99995 2.93671L9.1999 3.67089Z"
+                                    fill="black" fill-opacity="0.87" />
+                                <path
+                                    d="M3.19996 2.20253L4.39995 1.46835L3.99995 0C3.99995 0 6.39993 0.367089 9.59989 1.83544L8.7999 2.56962L9.1999 3.3038L3.19996 2.20253Z"
+                                    fill="black" fill-opacity="0.87" />
+                                <path d="M5.59994 8.07595H6.39993V11.0127H5.59994V8.07595Z" fill="black"
+                                    fill-opacity="0.87" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M19.5435 10.77C18.3825 11.819 17.453 12.3285 17.2625 12.02C16.8425 11.3405 14.6525 11.3485 14.2305 12.0315C14.05 12.324 14.2395 12.9425 14.6515 13.4065C15.324 14.163 15.277 14.429 14.2005 15.986C13.501 16.997 13 18.441 13 19.445C13 22.177 14.0805 27.714 14.6925 28.1175C15.804 28.85 17.9875 28.5065 18.616 27.5C19.201 26.5635 19.782 26.5 27.75 26.5C35.718 26.5 36.299 26.5635 36.884 27.5C37.5915 28.633 40.1955 28.8795 40.845 27.875C41.3375 27.1135 42.406 21.3515 42.4605 19.1635C42.486 18.1385 42.036 17.025 41.1895 16.0195C40.0125 14.6205 39.955 14.375 40.6245 13.606C41.034 13.135 41.2675 12.469 41.143 12.125C40.8695 11.3695 38.688 11.291 38.2375 12.02C38.047 12.3285 37.1175 11.819 35.9565 10.77L33.997 9H21.503L19.5435 10.77ZM37.75 14.475L28.1075 14.4875C18.7475 14.4995 18.48 14.472 18.979 13.539C19.262 13.01 20.088 12.11 20.8145 11.539C21.976 10.625 22.821 10.5 27.837 10.5H33.5385L37.75 14.475ZM18.75 18.4455C18.75 20.126 17.271 20.985 16.208 19.9225C14.963 18.677 15.7235 16.9 17.418 17.096C18.4465 17.215 18.75 17.5225 18.75 18.4455ZM39.535 17.792C40.423 18.862 39.5295 20.25 37.9525 20.25C36.728 20.25 36.1595 19.1085 36.692 17.721C37.06 16.7615 38.714 16.803 39.535 17.792ZM18.145 23.622L20.25 24.744L18.648 24.902C16.773 25.087 15 24.2755 15 23.2325C15 22.226 15.6855 22.311 18.145 23.622ZM40.5 23.2325C40.5 24.219 38.924 25 36.933 25C35.127 25 35.3515 24.5285 37.75 23.2845C39.6315 22.3085 40.5 22.292 40.5 23.2325Z"
+                                    fill="black" fill-opacity="0.87" />
+                            </svg>
+
+                            <p>Аренда <br> <span>(с водителем)</span> </p>
+                        </label>
+                    </div>
+                    <div class="menu-type-of-order">
+                        <input class="menu-radio" type="radio" name="type-of-order" id="type-of-order3">
+                        <label class="menu-radio-lable" for="type-of-order3">
+                            <!-- <img src="../img/pngkey.png" alt=""> -->
+                            <svg width="35" height="29" viewBox="0 0 35 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.0207 0.9345C22.3182 1.7105 22.1992 2.75 22.3182 7.0595L22.4612 12.25L28.5862 12.3905L34.7112 12.531V7.093C34.7112 0.114 34.6092 0 28.3742 0C24.6067 0 23.7272 0.1535 23.0207 0.9345ZM32.1162 4.125L32.2717 6H28.4912H24.7112V4.3335C24.7112 3.4165 24.8702 2.5075 25.0652 2.313C25.2597 2.1185 26.8907 2.0245 28.6902 2.1045L31.9612 2.25L32.1162 4.125ZM10.8762 3.867C8.51316 4.034 8.13466 4.2405 6.46766 6.2745C4.87716 8.216 4.39566 8.5 2.69516 8.5C0.163663 8.5 -0.870837 9.983 0.847163 11.1485C1.74366 11.757 1.83916 12.031 1.33616 12.5525C0.900163 13.0045 0.711163 15.209 0.711163 19.85V26.5H4.00816C6.88416 26.5 7.33816 26.3725 7.56616 25.5C7.81416 24.5515 8.24816 24.5 16.0197 24.5H24.2112L24.2057 21.125C24.1977 16.201 23.7467 14 22.7457 14C21.5652 14 20.7112 13 20.7112 11.6175V10.435L12.9037 10.792C4.07866 11.196 4.28066 11.3315 7.79266 7.366L9.46116 5.4815L15.0862 5.409C20.1842 5.343 20.7112 5.25 20.7112 4.418C20.7112 3.603 20.3037 3.5105 17.0862 3.5925C15.0922 3.6435 12.2977 3.767 10.8762 3.867ZM8.58616 14.628C8.93016 14.9 9.21116 15.4325 9.21116 15.811C9.21116 16.3195 8.42866 16.5 6.22866 16.5C3.74766 16.5 3.15566 16.33 2.70566 15.4895C2.40816 14.934 2.30466 14.2535 2.47516 13.9775C2.84366 13.381 7.65816 13.893 8.58616 14.628ZM25.4762 14.875C25.6857 15.631 25.9502 18.8935 26.0637 22.125C26.1772 25.3565 26.4817 28 26.7407 28H27.2112L27.2112 22.25L27.2112 16.5H27.7112C28.0167 16.5 28.2112 18.8235 28.2112 22.4705V28.1855H28.3758C31.5436 28.1855 31.1447 26.1205 31.3242 20.375L31.5387 13.5H28.3167H25.0947L25.4762 14.875Z"
+                                    fill="black" fill-opacity="0.87" />
+                            </svg>
+
+                            <p>Прокат</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- style="padding-top: 37px;" -->
+            <div class="menu-form">
+                <form action="">
+                    <div class=" order-addres">
+                        <div class="write-address">
+                            <label for="out-addres">Адрес подачи авто</label>
+                            <input type="text" name="out" id="out-addres" placeholder="Добавить адрес">
+                            <p class="add-addres-text">Подъзед</p>
+                        </div>
+                        <div class="write-address">
+                            <label for="in-addres">Адреса назначения</label>
+                            <input type="text" name="in" id="in-addres" placeholder="Добавить адрес">
+                            <p class="add-addres">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="black" fill-opacity="0.87" />
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="type-car">
+                        <div class="margin-block">
+                            <input class="radio-type-car" type="radio" name="type-of-car" id="type-car1">
+                            <label for="type-car1" class="label-type-car">
+                                <div class="button-type-car">
+                                    <div class="car-kia">
+                                        <img src="../img/arenda-kia-rio-.png" alt="">
+                                    </div>
+                                    <div class="type-car-text">
+                                        <p>Light</p>
+                                        <p>от 5р.</p>
+                                        <p>~15 мин</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="right-block margin-block">
+                            <input class="radio-type-car" type="radio" name="type-of-car" id="type-car2">
+                            <label for="type-car2" class="label-type-car">
+                                <div class="button-type-car">
+                                    <div class="car-ford">
+                                        <img src="../img/fusion.png" alt="">
+                                    </div>
+                                    <div class="type-car-text">
+                                        <p>Medium</p>
+                                        <p>от 8р.</p>
+                                        <p>~5 мин</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="radio-type-car" type="radio" name="type-of-car" id="type-car3">
+                            <label for="type-car3" class="label-type-car">
+                                <div class="button-type-car">
+                                    <div class="car-merc">
+                                        <img src="../img/kisspng-car-2018-mercedes-benz-s-class-luxury-vehicle-merc-mercedes-5ad29c274da144.png"
+                                            alt="">
+                                    </div>
+                                    <div class="type-car-text">
+                                        <p>Prestige</p>
+                                        <p>от 15р.</p>
+                                        <p>~2 мин</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="right-block">
+                            <input class="radio-type-car" type="radio" name="type-of-car" id="type-car4">
+                            <label for="type-car4" class="label-type-car">
+                                <div class="button-type-car">
+                                    <div class="car-miniv">
+                                        <img src="../img/minivans_f.png" alt="">
+                                    </div>
+                                    <div class="type-car-text">
+                                        <p>Minivan</p>
+                                        <p>от 8р.</p>
+                                        <p>Нет свободных</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="extra-button">
+                        <div>
+                            <input class="extra-radio" type="radio" name="extra" id="extra-button1" onclick="Test()">
+                            <label class="extra-label extra-label-one" for="extra-button1">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 4C10.58 4 7 7.58 7 12C7 16.42 10.58 20 15 20C19.42 20 23 16.42 23 12C23 7.58 19.42 4 15 4ZM15 18C11.69 18 9 15.31 9 12C9 8.69 11.69 6 15 6C18.31 6 21 8.69 21 12C21 15.31 18.31 18 15 18Z"
+                                        fill="black" fill-opacity="0.87" />
+                                    <path
+                                        d="M3 12C3 9.39 4.67 7.17 7 6.35V4.26C3.55 5.15 1 8.27 1 12C1 15.73 3.55 18.85 7 19.74V17.65C4.67 16.83 3 14.61 3 12Z"
+                                        fill="black" fill-opacity="0.87" />
+                                </svg>
+                                <p>Дополнения</p>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="extra-radio" type="radio" name="extra" id="extra-button2" onclick="Test()">
+                            <label class="extra-label extra-label-two" for="extra-button2">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21 18V19C21 20.1 20.1 21 19 21H5C3.89 21 3 20.1 3 19V5C3 3.9 3.89 3 5 3H19C20.1 3 21 3.9 21 5V6H12C10.89 6 10 6.9 10 8V16C10 17.1 10.89 18 12 18H21ZM12 16H22V8H12V16ZM16 13.5C15.17 13.5 14.5 12.83 14.5 12C14.5 11.17 15.17 10.5 16 10.5C16.83 10.5 17.5 11.17 17.5 12C17.5 12.83 16.83 13.5 16 13.5Z"
+                                        fill="black" fill-opacity="0.87" />
+                                </svg>
+                                <p>Наличные</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="one" id="">
+                        <div class="people">
+                            <p class="people-text">Колличество пассажиров (только для Prestige и Minivan)</p>
+                            <div class="people-radio">
+                                <input class="people-btn" type="radio" name="people" id="p1">
+                                <label class="people-lable" for="p1">1</label>
+                                <input class="people-btn" type="radio" name="people" id="p2">
+                                <label class="people-lable" for="p2">2</label>
+                                <input class="people-btn" type="radio" name="people" id="p3">
+                                <label class="people-lable" for="p3">3</label>
+                                <input class="people-btn" type="radio" name="people" id="p4">
+                                <label class="people-lable" for="p4">4</label>
+                                <input class="people-btn" type="radio" name="people" id="p5">
+                                <label class="people-lable" for="p5">5</label>
+                                <input class="people-btn" type="radio" name="people" id="p6">
+                                <label class="people-lable" for="p6">6</label>
+                                <input class="people-btn" type="radio" name="people" id="p7">
+                                <label class="people-lable" for="p7">7</label>
+                            </div>
+                        </div>
+                        <div class="select people">
+                            <div class="select-arrow">
+                                <p class="people-text">Выбрать дату</p>
+                                <select class="time-select" name="" id="">
+                                    <option value="null">Сегодня</option>
+                                </select>
+                            </div>
+                            <div style="margin-left: auto;" class="select-arrow">
+                                <p class="people-text">Выбрать время</p>
+                                <select class="time-select" name="" id="">
+                                    <option value="null">Сейчас</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="people">
+                            <p class="people-text">Комментарий</p>
+                            <textarea class="people-textarea" placeholder="Добавьте комментарий" name="comment"
+                                id=""></textarea>
+                        </div>
+                        <div class="people-checkbox">
+                            <div class="checkbox">
+                                <input class="check-box" type="checkbox" name="check1" id="ch1">
+                                <label class="check-label" for="ch1">
+                                    Детское кресло
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <input class="check-box" type="checkbox" name="check2" id="ch2">
+                                <label class="check-label" for="ch2">
+                                    Молчаливый водитель
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <input class="check-box" type="checkbox" name="check3" id="ch3">
+                                <label class="check-label" for="ch3">
+                                    Перевозка животных
+                                </label>
+
+                            </div>
+                            <div class="checkbox">
+                                <input class="check-box" type="checkbox" name="check4" id="ch4">
+                                <label class="check-label" for="ch4">
+                                    Некурящий водитель
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <input class="check-box" type="checkbox" name="check5" id="ch5">
+                                <label class="check-label" for="ch5">
+                                    Чек
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nalichka two">
+                        <div class="nalichka-block">
+                            <div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21 18V19C21 20.1 20.1 21 19 21H5C3.89 21 3 20.1 3 19V5C3 3.9 3.89 3 5 3H19C20.1 3 21 3.9 21 5V6H12C10.89 6 10 6.9 10 8V16C10 17.1 10.89 18 12 18H21ZM12 16H22V8H12V16ZM16 13.5C15.17 13.5 14.5 12.83 14.5 12C14.5 11.17 15.17 10.5 16 10.5C16.83 10.5 17.5 11.17 17.5 12C17.5 12.83 16.83 13.5 16 13.5Z"
+                                        fill="black" fill-opacity="0.87" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="nalichka-text" style="padding-top: 3px;">Наличные</p>
+                            </div>
+                        </div>
+                        <div class="nalichka-block">
+                            <div>
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18 0H2C0.89 0 0.00999999 0.89 0.00999999 2L0 14C0 15.11 0.89 16 2 16H18C19.11 16 20 15.11 20 14V2C20 0.89 19.11 0 18 0ZM18 14H2V8H18V14ZM18 4H2V2H18V4Z"
+                                        fill="black" fill-opacity="0.87" />
+                                </svg>
+
+                            </div>
+                            <div>
+                                <p class="nalichka-text">Добавить банковскую карту</p>
+                            </div>
+                        </div>
+                        <div class="nalichka-block">
+                            <div>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.41 9.58L10.41 0.58C10.05 0.22 9.55 0 9 0H2C0.9 0 0 0.9 0 2V9C0 9.55 0.22 10.05 0.59 10.42L9.59 19.42C9.95 19.78 10.45 20 11 20C11.55 20 12.05 19.78 12.41 19.41L19.41 12.41C19.78 12.05 20 11.55 20 11C20 10.45 19.77 9.94 19.41 9.58ZM3.5 5C2.67 5 2 4.33 2 3.5C2 2.67 2.67 2 3.5 2C4.33 2 5 2.67 5 3.5C5 4.33 4.33 5 3.5 5ZM15.27 13.27L11 17.54L6.73 13.27C6.28 12.81 6 12.19 6 11.5C6 10.12 7.12 9 8.5 9C9.19 9 9.82 9.28 10.27 9.74L11 10.46L11.73 9.73C12.18 9.28 12.81 9 13.5 9C14.88 9 16 10.12 16 11.5C16 12.19 15.72 12.82 15.27 13.27Z"
+                                        fill="black" fill-opacity="0.3" />
+                                </svg>
+
+                            </div>
+                            <div>
+                                <p class="nalichka-not">Оплата бонусами</p>
+                            </div>
+                        </div>
+                        <div class="nalichka-block">
+                            <div>
+                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.5 0.249771C5.29 0.249771 0.25 5.28977 0.25 11.4998C0.25 17.7098 5.29 22.7498 11.5 22.7498C17.71 22.7498 22.75 17.7098 22.75 11.4998C22.75 5.28977 17.71 0.249771 11.5 0.249771ZM12.625 17.1248H10.375V10.3748H12.625V17.1248ZM12.625 8.12477H10.375V5.87477H12.625V8.12477Z"
+                                        fill="black" fill-opacity="0.6" />
+                                </svg>
+
+                            </div>
+                            <div>
+                                <p class="nalichka-warning">Внимание! Если на вашем счету недостаточно средств для
+                                    оплаты, водитель в праве изменить
+                                    способ оплаты на наличный расчёт.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit">Заказать такси</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75240.72970081591!2d27.540088541642756!3d53.89136535529023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1574144662081!5m2!1sru!2sby"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <script>
+        function Test() {
+            console.log('true')
+        }
+    </script>
+</body>
+
+</html>

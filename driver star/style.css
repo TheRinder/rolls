@@ -1,0 +1,158 @@
+*{
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.main-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.maps{
+    width: 100%;
+    height: 100%;
+    
+}
+.star{
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 192.5px);
+    width: 385px;
+
+    background: rgba(255, 255, 255, 0.87);
+    backdrop-filter: blur(4px);
+    border-radius: 7px;
+}
+.block-star{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding: 18px 23px 25px 23px;
+}
+
+/*CSS копия из recept*/
+.review-driver{
+    display: flex;
+}
+.review-driver-img img{
+    width: 74px;
+    height: 74px;
+    border-radius: 37px;
+}
+.review-driver-info{
+    padding-left: 12px;
+}
+.driver-info-name{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.driver-info-phone{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.driver-info-status{
+    display: flex;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.driver-info-status span{
+    display: block;
+}
+.driver-info-status img{
+    padding-top: 1px;
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+/*------------------------------*/
+.review-form p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-left: 7px;
+}
+.review-form-btn{
+
+    width: 309px;
+    margin: 24px auto 0px auto;
+}
+.review-form-btn button{
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+
+    background: linear-gradient(0deg, #000000, #000000), #138959;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 13px;
+    padding: 11px 85px 11px 85px;
+}
+/*код для рейтинга взят из интернета
+*/
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background: url('./raiteng-star.png') no-repeat;
+  }
+  
+  #reviewStars-input {
+    overflow: hidden;
+    /* *zoom: 1;
+    position: relative;
+    float: left; */
+    width: 225px;
+  }
+  
+  #reviewStars-input input {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 35px;
+    height: 35px;
+    
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  
+  #reviewStars-input input:checked ~ label {
+    background-position: 0 -35px;
+    width: 35px;
+    height: 35px;
+  }
+  
+  #reviewStars-input label {
+    background-position: 0 0;
+    width: 35px;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    
+    position: relative;
+    z-index: 1;
+  }
+  
+  #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background-position: 0 -35px;
+    width: 35px;
+    height: 35px;
+  }

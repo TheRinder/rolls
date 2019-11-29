@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,300&display=swap" rel="stylesheet">
+    <title>receipt</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75240.72970081591!2d27.540088541642756!3d53.89136535529023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1574144662081!5m2!1sru!2sby"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="status">
+            <div class="review-info">
+                <div class="review-header">
+                    <h2 class="review-title">
+                        Квитанция
+                    </h2>
+                    <div class="like-btn">
+                        <button>
+                            <img src="../img/like.png" alt="">
+                            <span class="true">В любимые</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="review-status">
+                    <div class="review-order">
+                        <p>Заказ <span id=""> №64070831111</span></p>
+                        <p>Статус: <span id="">заказ закрыт</span> </p>
+                    </div>
+                    <div class="review-addres">
+                        <p class="addres-title">Адрес подачи авто</p>
+                        <p id="" class="addres-cotent">ул. Карла Маркса 12</p>
+                        <p class="addres-title">Адреса назначения</p>
+                        <p id="" class="addres-cotent">ул. Очень-очень длинное название,!!!!!!!!!!!!!!!!!!!!!!! </p>
+                        <p class="dop-info">Подъзед 5</p>
+                    </div>
+                </div>
+                <div class="review-driver">
+                    <div class="review-driver-img">
+                        <img src="../img/480x497_0_41ed55af84b672870b6db9d9401c9604@480x497_0xc0a8399a_17479801141492689970.jpeg"
+                            alt="">
+                    </div>
+                    <div class="review-driver-info">
+                        <p class="driver-info-name">
+                            Василий
+                        </p>
+                        <p class="driver-info-phone">
+                            +375 33 322-13-37
+                        </p>
+                        <p class="driver-info-status">
+                            <span>4,5</span>
+                            <img src="../img/star.png" alt="">
+                            <span>
+                                (2 отзыва)
+                            </span>
+                            <span>· 0 жалоб</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="review-car-info">
+                    <div class="car-info-img">
+                        <img src="../img/5d21f006887eb_2560-0.jpg" alt="">
+                    </div>
+                    <div class="car-info-status">
+                        <p>Mercedes E200</p>
+                        <p class="car-gos-nomer">1243 АМ-7</p>
+                    </div>
+                </div>
+                <div class="review-receipt">
+                    <div class="receipt-money">
+                        <p>25,35</p>
+                        <p>руб.</p>
+                    </div>
+                    <div class="receipt-info">
+                        <p>Способ оплаты: <span>Наличные</span></p>
+                        <p>Расстояние: <span>7 км</span></p>
+                        <p>Ожидание: <span>0 мин</span></p>
+                        <p class="receipt-info-btn"><a href="#Получить чек">Получить чек</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-btn-att">
+                <div class="review-btn-attention">
+                    <button class="review-btn-one">
+                        <img src="../img/outline-work.png" alt="">
+                        <span>
+                            Забыл вещи
+                        </span>
+                    </button>
+                </div>
+                <div class="review-btn-attention">
+                    <button class="review-btn-two">
+                        <img src="../img/outline-sentiment_very.png" alt="">
+                        <span>
+                            Пожаловаться
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="review-btn">
+                <button onclick="test_button('отзыв')">
+                    <span>
+                        Оставить отзыв
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function test_button(str) {
+            console.log(str)
+        }
+    </script>
+</body>
+
+</html>

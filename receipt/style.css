@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.main-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.maps{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.status{
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 192.5px);
+    width: 385px;
+
+    background: rgba(255, 255, 255, 0.87);
+    backdrop-filter: blur(4px);
+    border-radius: 7px;
+}
+.review-info{
+    padding: 23px 10px 10px 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.review-header{
+    display: flex;
+    padding-bottom: 6px;
+}
+.review-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.like-btn{
+    margin-left: auto;
+}
+.like-btn button{
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 6px 10px 4px 11px;
+    display: flex;
+}
+.like-btn button span{
+    padding-left:3px;
+}
+
+.review-status{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding-bottom: 17px;
+}
+.review-order{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.review-addres{
+    /* padding-top: 17px; */
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.addres-title{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    padding: 17px 0px 5px 0px;
+}
+.addres-cotent{
+    width: 275px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dop-info{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    float: right;
+    margin-top: -24px;
+}
+
+.review-driver,
+.review-car-info,
+.review-receipt,
+.review-btn-att{
+    display: flex;
+    padding-bottom: 10px;
+}
+.review-driver-img img{
+    width: 74px;
+    height: 74px;
+    border-radius: 37px;
+}
+.review-driver-info,
+.car-info-status{
+    padding-left: 12px;
+}
+.driver-info-name{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.driver-info-phone{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.driver-info-status{
+    display: flex;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.driver-info-status span{
+    display: block;
+}
+.driver-info-status img{
+    padding-top: 1px;
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+.car-info-img img{
+    width: 74px;
+    height: 54px;
+    border-radius: 7px;
+}
+.car-info-status{
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.car-gos-nomer{
+    font-size: 16px;
+}
+.receipt-money{
+    margin: auto 0px;
+    width: 61px;
+    padding: 0px 6.5px;
+}
+.receipt-money p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.receipt-money p+p{
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.receipt-info{
+    padding-left: 12.5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+.receipt-info-btn{
+    float: right;
+    margin: -23px 0px 0px 175px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.receipt-info-btn a{
+    color: #000000;
+    text-decoration: none;
+    outline: none;
+}
+.review-btn-att{
+    width: 367px;
+    margin: 0px auto;
+}
+.review-btn-attention button{
+    cursor: pointer;
+    display: flex;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.review-btn-attention+.review-btn-attention{
+    padding-left: 7px;
+}
+.review-btn-attention span{
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.review-btn-one{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.review-btn-two{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.review-btn-one,
+.review-btn-two{
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.review-btn{
+    width: 311px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+.review-btn button{
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+
+    background: linear-gradient(0deg, #000000, #000000), #138959;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 13px;
+    padding: 11px 48px 11px 48px;
+}
