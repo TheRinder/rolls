@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon_rolls.png" type="image/png">
+    <title>Rolls - заказ такси, аренда авто в Минске</title>
+</head>
+
+<body>
+    <div class="main-block active-menu" id="main-menu">
+        <div class="main-header">
+            <div class="btn-back">
+                <button onclick="back_menu()">
+                    <img src="img/arrow-left.png" alt="">
+                </button>
+            </div>
+            <div class="header-logo">
+                <img src="img/logotype_low.png" alt="">
+                <p>Заказ такси</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="persone">
+                <div class="person-icon">
+                    <img src="img/persone-img-default.png" alt="">
+                </div>
+                <div class="person-info">
+                    <p class="person-name">Александр</p>
+                    <p class="person-phone">+375 33 331-32-42 <span><img src="img/editing-persona.png" alt=""></span>
+                    </p>
+                    <p class="person-email">my-email@mail.ru</p>
+                    <p class="person-bonus">0 роллсов</p>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul class="menu-list">
+                    <li>
+                        <input type="radio" name="main-menu" id="order">
+                        <label for="order" class="menu-label" onclick="open_block('order-content')">
+                            <div>
+                                <img src="img/мои заказы.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Мои заказы
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="payment">
+                        <label for="payment" class="menu-label">
+                            <div>
+                                <img src="img/способы оплаты.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Способ оплаты
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="alerts">
+                        <label for="alerts" class="menu-label">
+                            <div>
+                                <img src="img/оповещения.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Оповещения
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="story">
+                        <label for="story" class="menu-label">
+                            <div>
+                                <img src="img/история.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    История
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="route">
+                        <label for="route" class="menu-label">
+                            <div>
+                                <img src="img/любимый маршрут.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Любимые маршруты
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="bonuses">
+                        <label for="bonuses" class="menu-label">
+                            <div>
+                                <img src="img/бонусы.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Бонусы и скидки
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="rates">
+                        <label for="rates" class="menu-label">
+                            <div>
+                                <img src="img/тарифы.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Тарифы
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="dispatcher">
+                        <label for="dispatcher" class="menu-label">
+                            <div>
+                                <img src="img/звонок диспетчеру.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Звонок диспетчеру
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="support">
+                        <label for="support" class="menu-label">
+                            <div>
+                                <img src="img/служба поддержки.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Служба поддержки
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="information">
+                        <label for="information" class="menu-label">
+                            <div>
+                                <img src="img/информация.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Информация
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="main-menu" id="exit">
+                        <label for="exit" class="menu-label">
+                            <div>
+                                <img src="img/выйти из аккаунта.png" alt="">
+                            </div>
+                            <div>
+                                <p>
+                                    Выйти из аккаунта
+                                </p>
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-body " id="order-content">
+        <div class="body-header">
+            <div class="body-btn-back">
+                <button onclick="close_block('order-content')">
+                    <img src="img/arrow-left.png" alt="">
+                </button>
+            </div>
+            <div class="body-title">
+                <div>
+                    <img src="img/мои заказы.png" alt="">
+                </div>
+                <div>
+                    <p>
+                        Мои заказы
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="maps">
+        <div id="BG"></div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75240.72970081591!2d27.540088541642756!3d53.89136535529023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1574144662081!5m2!1sru!2sby"
+            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <script async src="js/index.js"></script>
+</body>
+
+</html>
